@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Register Page</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+<!--    <script src = scrypt/scrypt.js></script>-->
+</head>
+<body>
+<div class="login-page">
+    <div class="form">
+<!--        <form class="register-form">-->
+<!--            <input type="text" placeholder="name"/>-->
+<!--            <button>create</button>-->
+<!--            <p class="message">Already registered? <a href="#">Sign In</a></p>-->
+<!--        </form>-->
+        <form name = "loginForm" action="backend/main.php" method="GET" class="login-form"
+              onsubmit="return validateForm()">
+            <input type="text" placeholder="Your username from Intra42" name="login" value="" />
+<!--            <input type="password" placeholder="password"/>-->
+            <script src = scrypt/scrypt.js></script>
+            <button type = 'submit' class = 'validate'>Enter</button>
+<!--            <p class="message">Not registered? <a href="#">Create an account</a></p>-->
+        </form>
+    </div>
+</div>
+</body>
+</html>
